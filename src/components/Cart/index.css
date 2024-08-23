@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+.cart-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 20rem;
+}
+
+.cart-cont img {
+  height: 30rem;
+  width: 30rem;
+  object-fit: contain;
+  object-position: center;
+}

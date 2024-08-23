@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+.product-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20rem;
+}
+
+.product-cont img {
+  height: 30rem;
+  width: 30rem;
+  object-fit: cover;
+  object-position: center;
+}
